@@ -1,0 +1,24 @@
+[project]
+name = "quanttide-feishu"
+version = "0.1.0"
+description = "飞书适配工具包（Python 包）：飞书适配的共享能力"
+readme = "README.md"
+license = "Apache-2.0"
+authors = [
+    { name = "QuantTide", email = "opensource@quanttide.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[build-system]
+requires = ["uv_build>=0.11.6,<0.12.0"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+]
