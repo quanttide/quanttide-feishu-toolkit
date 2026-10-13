@@ -1,0 +1,13 @@
+[package]
+name = "quanttide-feishu"
+version = "0.1.0"
+edition = "2024"
+description = "飞书适配工具包（Rust 库）：飞书适配的共享能力"
+authors = ["QuantTide <opensource@quanttide.com>"]
+license = "Apache-2.0"
+repository = "https://github.com/quanttide/quanttide-feishu-toolkit"
+readme = "README.md"
+keywords = ["quanttide", "feishu", "toolkit"]
+categories = ["development-tools"]
+
+[dependencies]

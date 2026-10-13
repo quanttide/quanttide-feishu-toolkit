@@ -9,5 +9,6 @@
 | 包 | 语言 | 包名 | 说明 |
 |---|---|---|---|
 | [`packages/python`](packages/python) | Python | `quanttide-feishu` | 飞书适配 Python 包 |
+| [`packages/rust`](packages/rust) | Rust | `quanttide-feishu` | 飞书适配 Rust 库 |
 
 新增语言包时在 `packages/{语言}/` 下独立发布，互不依赖。
